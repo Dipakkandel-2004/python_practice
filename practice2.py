@@ -1,4 +1,5 @@
-f=open("studentdetail.txt","a+")
+#Taking data from students and store them in file(studentdetal.txt)
+f=open("studentdetail.txt","a+")#creating and opening new file studentdetail.txt
 class student:
     def __init__(self,name,address,DOB,Father_name):
         self.name=name
